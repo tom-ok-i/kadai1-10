@@ -7,6 +7,7 @@
 header {
   height: 50px;
   background-color: #ff9a4b;
+  position: relative;
 }
 main {
   width: 960px;
@@ -55,4 +56,24 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .step-box {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+  }
+  .step-num {
+    margin-left: 50px;
+  }
 }
